@@ -4,7 +4,8 @@
     <title>Login</title>
 </head>
 <body>
-    <h2>Login</h2>
+<p><a href='index.html'>&#8592;</a></p>
+    <h1>Login</h1>
     <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $username = $_POST['username'];

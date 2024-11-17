@@ -4,7 +4,6 @@ $nome = "Paolo";
 $ora = date("H");
 $saluto = "";
 
-// Determina il saluto in base all'orario
 if ($ora >= 8 && $ora < 12) {
     $saluto = "Buongiorno";
 } elseif ($ora >= 12 && $ora < 20) {
@@ -23,8 +22,9 @@ echo "<!DOCTYPE html>
     <title>Prima pagina PHP</title>
 </head>
 <body>
+<p><a href='index.html'>&#8592;</a></p>
     <h1>{$saluto} {$nome}, benvenuta nella mia prima pagina PHP</h1>
     <p>Stai usando il browser: {$browser}</p>
-</body>
+    </body>
 </html>";
 ?>

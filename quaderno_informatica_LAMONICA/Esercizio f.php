@@ -4,6 +4,7 @@
     <title>Genera Tabella</title>
 </head>
 <body>
+<p><a href='index.html'>&#8592;</a></p>
     <?php
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $n = intval($_POST['number']);
@@ -26,13 +27,11 @@
         }
         echo "</table>";
     } else {
-        // Visualizzazione del modulo
         echo '<h2>Inserisci un numero tra 1 e 10</h2>
               <form method="post" action="">
                   <label for="number">Numero:</label>
                   <select id="number" name="number" required>';
         
-        // Opzioni del menu a tendina
         for ($i = 1; $i <= 10; $i++) {
             echo "<option value=\"$i\">$i</option>";
         }

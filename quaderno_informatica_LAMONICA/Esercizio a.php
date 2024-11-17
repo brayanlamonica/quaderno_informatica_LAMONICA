@@ -6,6 +6,7 @@
     <title>Tabella Pitagorica</title>
 </head>
 <body>
+<p><a href="index.html">&#8592;</a></p>
     <h1>Tabella Pitagorica</h1>
     <table>
         <?php

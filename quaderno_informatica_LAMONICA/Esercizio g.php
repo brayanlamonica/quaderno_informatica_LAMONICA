@@ -6,8 +6,8 @@
 </head>
 
 <body>
+<p><a href='index.html'>&#8592;</a></p>
     <?php
-    // Controllo se il modulo è stato inviato
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $nome = ($_POST['nome']);
         $cognome = ($_POST['cognome']);
@@ -22,7 +22,6 @@
         $nickname = ($_POST['nickname']);
         $password = ($_POST['password']);
 
-        // Visualizzazione dei dati inseriti
         echo '<h2>Dati Inseriti</h2>';
         echo 'Nome: ' . $nome . '<br>';
         echo 'Cognome: ' . $cognome . '<br>';
@@ -37,7 +36,6 @@
         echo 'Nickname: ' . $nickname . '<br>';
         echo 'Password: ' . $password . '<br>';
     } else {
-        // Visualizzazione del modulo
         echo '<h2>Inserisci i tuoi dati</h2>
               <form method="post" action="">
                   <label for="nome">Nome:</label>

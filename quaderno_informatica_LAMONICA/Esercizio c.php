@@ -11,6 +11,7 @@
     </style>
 </head>
 <body>
+<p><a href='index.html'>&#8592;</a></p>
     <h1>Triangoli di Asterischi</h1>
 
     <pre>
